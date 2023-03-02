@@ -1,12 +1,15 @@
-.App {
-  background-color: rgb(142, 216, 185);
-  margin: 5% 25%;
+.App  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:flex-end ;
+  background-color: #6295e3;
+  margin: 1% 25%;
   padding: 10px;
   border-radius: 10px;
   font-size: large;
   text-align: center;
 }
-
 
 
 
@@ -27,18 +30,31 @@
 
 label {
   margin-right: 10px;
+  margin-bottom: 3px;
 }
 input {
+  background-color: #eca7af;
+  border-color: #cb435f;
   padding: 5px;
   margin-right: 10px;
+  margin-bottom: 3px;
   font-size: large;
   border-radius: 5px;
+  
 }
 button {
+  background-color: #eca7af;
   border-radius: 5px;
-  padding: 5px;
+  border-color: #cb435f;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: large;
+  color:#fefefc;
   margin-left: 10px;
 }
 
-
+@media (max-width: 920px){
+  .App {margin: 1% 1%;}
+}

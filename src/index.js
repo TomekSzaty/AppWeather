@@ -7,13 +7,19 @@ import MyList from './MyList';
 import MyTable from './MyTable';
 import MyComponent from './MyComponent';
 import MyForm from './MyForm';
+import Navbar from './Navbar';
+import Footer from './Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <MyForm /> */}
     {/* <MyComponent /> */}
+    <Navbar />
     <App />
+    <Footer />
+    
     {/* <MyList /> */}
     {/* <MyTable /> */}
   </React.StrictMode>
